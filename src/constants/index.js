@@ -291,7 +291,7 @@ const projects = [
   {
     name: "MyEyeDr",
     description:
-      " provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
+      "Provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
     tags: [
       {
         name: "Drupal",
