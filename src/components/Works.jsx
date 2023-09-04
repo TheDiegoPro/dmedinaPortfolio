@@ -2,10 +2,11 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import { github } from "../assets";
+import { world } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+
 
 const ProjectCard = ({
   index,
@@ -33,12 +34,13 @@ const ProjectCard = ({
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover ">
-            <div onClick={()=> windows.open(source_code_link,"_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center 
+            <div onClick={()=> window.open(source_code_link,"_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center 
             items-center cursor-pointer">
-              <img src={github}
-              alt="github"
+              <img src={world}
+              alt="website"
               className="w-1/2 h-1/2"
-              object-contain />
+              object-contain 
+              />
             </div>
           </div>
         </div>
@@ -77,7 +79,7 @@ const Works = () => {
           real-world examples of my work,each project is briefly described with
           links to code repositories and live demos in it. it reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively
+          and manage projects effectively. <a href="https://github.com/TheDiegoPro" target="_blank"><span className="text-lime-500 transition-all font-bold hover:text-purple-800">Check my Github Account HERE!</span></a>
         </motion.p>
       </div>
 

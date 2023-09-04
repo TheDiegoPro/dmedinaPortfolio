@@ -19,10 +19,11 @@ import {
   consu,
   bio,
   comprised,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  uwmedicine,
+  shirt,
+  carHub,
+  myeyedr,
 } from "../assets";
 
 export const navLinks = [
@@ -206,46 +207,120 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ThreeJS Shirt Customization",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Design a one-of-a-kind shirt that speaks volumes about your individuality using our cutting-edge 3D customization tool. Give free rein to your creativity and craft a shirt that is as distinctive as you are.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "ThreeJS",
+        color: "white-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind-CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shirt,
+    source_code_link: "https://3-d-shirt-one.vercel.app/",
+  },
+
+  {
+    name: "Car Hub",
+    description:
+      "A small application based on React and NextJS that generates a list of vehicles using filters, implementation of API Cars by API-Ninjas and ImaginZ API. Using features such as server-side rendering and the app router. ",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Tailwind-CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "white-text-gradient",
+      },
+    ],
+    image: carHub,
+    source_code_link: "https://car-showcase-roan-one.vercel.app/",
+  },
+
+  {
+    name: "UW Medicine",
+    description:
+      "The UW Medicine healthcare system includes UW Medical Center, rated the #1 hospital in Washington by the U.S. The UW Medicine healthcare system encompasses a wide range of world-class medical facilities and services.",
+    tags: [
+      {
+        name: "Drupal",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Acquia",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: uwmedicine,
+    source_code_link: "https://www.uwmedicine.org/",
   },
   {
-    name: "Job IT",
+    name: "MyEyeDr",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
     tags: [
       {
-        name: "react",
+        name: "Drupal",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "MySql",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Acquia",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Digital-Ocean",
+        color: "blue-text-gradient",
+      },
+      
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: myeyedr,
+    source_code_link: "https://www.myeyedr.com/",
   },
   {
     name: "Trip Guide",
@@ -265,7 +340,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: uwmedicine,
     source_code_link: "https://github.com/",
   },
 ];

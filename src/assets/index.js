@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import world from "./world.png"
 
 //icons from works
 
@@ -28,12 +29,16 @@ import consu from "./company/consu.png"
 import bio from "./company/bio.png"
 import comprised from "./company/Comprised3.png"
 
+//photos from works
+import shirt from "./shirt.png"
+import carHub from "./CarHub.png"
+import uwmedicine from "./uwmedicine.png";
+import myeyedr from "./myeyedr.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
+  world,
   logo,
   backend,
   creator,
@@ -55,11 +60,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   favei,
   consu,
   bio,
   comprised,
+  uwmedicine,
+  shirt,
+  carHub,
+  myeyedr
 };
