@@ -24,6 +24,9 @@ import {
   shirt,
   carHub,
   myeyedr,
+  brain,
+  frontend,
+  software,
 } from "../assets";
 
 export const navLinks = [
@@ -47,21 +50,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Developer",
-    icon: mobile,
+    title: "Software Engineering",
+    icon: software,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "PHP Developer",
-    icon: creator,
+    title: "Frontend Developer",
+    icon: frontend,
   },
+  {
+    title: "Troubleshooting",
+    icon: brain,
+  },
+ 
 ];
 
 const technologies = [
@@ -322,27 +326,27 @@ const projects = [
     image: myeyedr,
     source_code_link: "https://www.myeyedr.com/",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: uwmedicine,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: uwmedicine,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

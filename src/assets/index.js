@@ -35,9 +35,16 @@ import carHub from "./CarHub.png"
 import uwmedicine from "./uwmedicine.png";
 import myeyedr from "./myeyedr.png"
 
+//icons overview
 
+import brain from "./brain-process.png"
+import frontend from "./frontend.png"
+import software from "./software.png"
 
 export {
+  software,
+  frontend,
+  brain,
   world,
   logo,
   backend,
