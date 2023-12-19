@@ -291,41 +291,41 @@ const projects = [
     ],
     image: uwmedicine,
     source_code_link: "https://www.uwmedicine.org/",
-  },
-  {
-    name: "MyEyeDr",
-    description:
-      "Provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
-    tags: [
-      {
-        name: "Drupal",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySql",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Acquia",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Digital-Ocean",
-        color: "blue-text-gradient",
-      },
+  }
+  // {
+  //   name: "MyEyeDr",
+  //   description:
+  //     "Provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
+  //   tags: [
+  //     {
+  //       name: "Drupal",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MySql",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Acquia",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Digital-Ocean",
+  //       color: "blue-text-gradient",
+  //     },
       
-    ],
-    image: myeyedr,
-    source_code_link: "https://www.myeyedr.com/",
-  },
+  //   ],
+  //   image: myeyedr,
+  //   source_code_link: "https://www.myeyedr.com/",
+  // },
   // {
   //   name: "Trip Guide",
   //   description:
