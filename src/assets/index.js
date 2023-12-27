@@ -34,6 +34,8 @@ import shirt from "./shirt.png"
 import carHub from "./CarHub.png"
 import uwmedicine from "./uwmedicine.png";
 import myeyedr from "./myeyedr.png"
+import bloques from "./bloques.png"
+import comprisedLogo from "./comprised.png"
 
 //icons overview
 
@@ -42,6 +44,7 @@ import frontend from "./frontend.png"
 import software from "./software.png"
 
 export {
+  bloques,
   software,
   frontend,
   brain,
@@ -71,6 +74,7 @@ export {
   consu,
   bio,
   comprised,
+  comprisedLogo,
   uwmedicine,
   shirt,
   carHub,

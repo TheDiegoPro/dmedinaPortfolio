@@ -19,11 +19,12 @@ import {
   consu,
   bio,
   comprised,
+  comprisedLogo,
   threejs,
   uwmedicine,
   shirt,
   carHub,
-  myeyedr,
+  bloques,
   brain,
   frontend,
   software,
@@ -291,41 +292,58 @@ const projects = [
     ],
     image: uwmedicine,
     source_code_link: "https://www.uwmedicine.org/",
+  },
+  {
+    name: "Bloques Cartagena",
+    description:
+      "Discover excellence in construction with Cartagena Blocks. As leaders in the manufacture of structural blocks, pavers and bush-hammered stones, we offer products of high resistance and durability. Our cutting-edge technology guarantees blocks with optimal thermal and acoustic properties, improving the comfort and energy efficiency of your projects. ",
+    tags: [
+      {
+        name: "Drupal",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bloques,
+    source_code_link: "https://bloquescartagena.com/",
+  },
+
+  {
+    name: "Comprised",
+    description:
+      "Since Comprised LLC was founded in 2003, we have been developing and maintaining technology for Retail, Internet, VoIP, Non-Profit Organizations and Government. We develop an aesthetic and elegant structure based on your needs designed in Drupal, Php, JavaScript and Bootstraps. We design quality and creativity in order to convey a visual message in marketing and web page design.",
+    tags: [
+      {
+        name: "Drupal",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: comprised,
+    source_code_link: "https://comprised.com/",
   }
-  // {
-  //   name: "MyEyeDr",
-  //   description:
-  //     "Provides exceptional eye care for patients of all ages through our local community of doctors you can trust. Meet our Doctors.",
-  //   tags: [
-  //     {
-  //       name: "Drupal",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "MySql",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "Javascript",
-  //       color: "yellow-text-gradient",
-  //     },
-  //     {
-  //       name: "Bootstrap",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "Acquia",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Digital-Ocean",
-  //       color: "blue-text-gradient",
-  //     },
-      
-  //   ],
-  //   image: myeyedr,
-  //   source_code_link: "https://www.myeyedr.com/",
-  // },
   // {
   //   name: "Trip Guide",
   //   description:
